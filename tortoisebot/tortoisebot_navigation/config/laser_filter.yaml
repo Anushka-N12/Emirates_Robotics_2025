@@ -1,0 +1,8 @@
+laser_filter_chain:
+  ros__parameters:
+    filters:
+      - name: shadow_filter
+        type: "laser_filters/LaserScanShadowFilter"
+        params:
+          min_angle: -1.57  # -90 degrees
+          max_angle: 1.57   # 90 degrees
